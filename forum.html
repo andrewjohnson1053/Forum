@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forum Name</title>  
+    
+    <link rel="stylesheet" href="forum.css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+      
+</head>
+    
+<body>
+    
+    <div class="header">
+        
+        <div id="date"></div>
+         
+        <div id="title">
+            
+            <img src="#" id="logo">
+            
+            <h1>Project Name</h1>
+            
+        </div>
+    
+    </div>
+    
+    <div class="main-content">
+        
+       
+                <div class="split left">
+
+                    <h1>Sign Up</h1>
+                    <span id="sign-up" ><img src="Images/arrow1.png"></span> 
+                    
+                </div>
+
+                <div class="split right">
+
+                     <h1>Login</h1>
+                     <span id="login" ><img src="Images/arrow2.png"></span> 
+                    
+                </div>
+            
+          
+                <div id="split-right" >
+
+                    <img src="Images/arrow3.png" id="back-to-login">
+
+                    <div id="sign-up-form">Sign-up Form</div>
+
+                </div> 
+        
+                  <div id="split-left" >
+
+                       <img src="Images/arrow4.png" id="back-to-sign-up">
+
+                      <div id="login-form">Login Form</div>
+
+                </div> 
+        
+      </div>
+      
+    <div class="footer">
+        
+                <p>&copy;<span id="copyright">copyright text</span></p>
+        
+    </div>
+    
+    <!--------------------------------------------------Javascript Section---------------------------------------------------------->
+    
+    <script type="text/javascript">
+  
+                n =  new Date();
+                var day = n.getDay();
+                var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+                y = n.getFullYear();
+                m = n.getMonth() + 1;
+                d = n.getDate();
+                document.getElementById("date").innerHTML = daylist[day] + " " +d + "/" + m + "/" + y;
+        
+        
+                $(document).ready(function() {
+         
+                            
+                                 $('.left').click(function() {
+
+                                        $('#split-right').toggle("slide");  
+                                            
+                                  });
+                    
+                                 $('.right').click(function() {
+
+                                        $('#split-left').toggle("slide");                 
+
+                                  });
+                              
+                                  $('#back-to-login').click(function() {
+
+                                      $('#split-right').css("display","none");       
+                            
+                                 });
+                    
+                                 $('#back-to-sign-up').click(function() {
+
+                                        $('#split-left').css("display","none");              
+
+                                 });
+                   
+                 }); 
+        
+    </script>
+        
+</body>
+    
+</html> 
