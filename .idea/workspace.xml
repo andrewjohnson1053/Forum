@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="Designing index.php" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1dVKITS4qS4sMfazjNhgp08ceGk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Forum" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="" />
+      <created>1592504740801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592504740801</updated>
+      <workItem from="1592504745117" duration="3074000" />
+      <workItem from="1592544737723" duration="2831000" />
+      <workItem from="1592554877709" duration="15274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592505768355">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.832@0.0.1536.832" timestamp="1592505768355" />
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592568735391">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592568735391" />
+    <state x="147" y="72" key="DiffContextDialog" timestamp="1592568700357">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="147" y="72" key="DiffContextDialog/0.0.1536.832@0.0.1536.832" timestamp="1592568700357" />
+    <state x="581" y="325" key="NewPhpFileDialog" timestamp="1592545654977">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="581" y="325" key="NewPhpFileDialog/0.0.1536.832@0.0.1536.832" timestamp="1592545654977" />
+    <state x="581" y="73" key="RollbackChangesDialog" timestamp="1592555390567">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="581" y="73" key="RollbackChangesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592555390567" />
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592554875191">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592554875191" />
+    <state x="546" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592568575291">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="546" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1592568575291" />
+    <state x="543" y="253" key="git4idea.rebase.GitRebaseDialog" timestamp="1592555518071">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="543" y="253" key="git4idea.rebase.GitRebaseDialog/0.0.1536.832@0.0.1536.832" timestamp="1592555518071" />
+    <state x="388" y="233" key="git4idea.ui.GitUnstashDialog" timestamp="1592568610252">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="388" y="233" key="git4idea.ui.GitUnstashDialog/0.0.1536.832@0.0.1536.832" timestamp="1592568610252" />
+    <state x="341" y="185" key="run.anything.popup" timestamp="1592566113692">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="341" y="185" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1592566113692" />
+  </component>
+</project>

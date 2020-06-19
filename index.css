@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: red;
+}
+#main-container{
+    height: 100%;
+    width: 100%;
+    background-color: #008BD4;
+}
+#header-container{
+    width: 100%;
+    height: 13.51851851851852%;
+    background-color: #ececec;
+}
+.seperater{
+    background-color: #FFC000;
+    width: 100%;
+}
+#header-seperater{
+    height: 0.64814814814815%;
+}
+#middle-container{
+    width: 100%;
+    height: 81.2037037037037%;
+    background-color: #ececec;
+}
+#footer-seperator{
+    height: 0.27777777777778%;
+}
+#footer-container{
+    width: 100%;
+    height: 4.35185185185185%;
+    background-color: #ececec;
+}
+#left-div{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right,#1F4E79,#0070C0,#00B0F0);
+    float: left;
+    text-align: center;
+}
+#right-div{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right,#92D050,#00B050,#375623);
+    float: right;
+    text-align: center;
+}
+#left-expand-image{
+    float: right;
+}
+#right-expand-image{
+    float: left;
+}
+#left-expand-image-reversed{
+    height:7%;
+    float: right;
+    position: relative;
+    top: 46.5%;
+    margin-right: 2%;
+}
+#right-expand-image-reversed{
+    height: 10%;
+    transform: rotate(180deg);
+    display: none;
+}
+.expand-button{
+    height:7%;
+    position: relative;
+    top: 46.5%;
+    margin-right: 2%;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0%,0%);
+    transform: translate(0%,0%);
+}
+.option-text{
+    font-family: 'Abel', sans-serif;
+    font-size: 450%;
+    position: relative;
+    top: 41.75%;
+    color: white;
+}
+#logo-image{
+    width: 7.5520833333333%;
+    height: 75.34246575342466%;
+    background-color: black;
+    color: white;
+    margin-top: 13px;
+    margin-left: 13px;
+    float: left;
+}
+#header-text{
+    font-family: 'Coda', cursive;
+    font-size: 400%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#date-div{
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    float: right;
+    top: 80% ;
+    height: 20%;
+}
+#copyright-text{
+    font-size: 125%;
+    padding-left: 1%;
+}
+
+
+
