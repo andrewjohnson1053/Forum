@@ -4,19 +4,22 @@
    
                 .header{
                     width: 100%;
-                    height: 90px;
+                    height: 80px;
                     font-family: 'Coda', cursive;
+                   
                 }
 
                 #date{
 
                     float: right;
-                    margin-top: 30px;
-                    font-size: 30px;
+                    font-size: 20px;
                     font-weight:normal;
                     position: relative;
-                    top: -10px;
-                    color: black;
+                    top: 60%;
+                   left: 7px;
+                    color: white;
+                    padding: 3px 10px;
+                    background-color: black;
                 }
 
                 #title{
@@ -27,7 +30,7 @@
                     height: 70px;
                     width: 70px;
                     border-radius: 50%;
-                    border: 1px solid black;
+                  border: 1px solid black;
 
                 }
 
@@ -46,49 +49,63 @@
       /*Content Part: */
     
                     .main-content{
-                        text-align: center;
+                        
                         font-size: 30px;
                         width: 100%;
                         height: 600px;
                         font-family: 'Abel', sans-serif;
                         color: white;
-
+                        border: 4px solid orange;
+                        text-align: center;
+                       
+                        
                     }
 
-                    .main-content h1{
-
-                         padding-top: 190px;
+                    .left h1{
+                        padding-top: 25%;
+                        text-align: center;
                     }
+
+                    .right h1{
+                        padding-top: 24%;
+                        
+                    }
+
+                   
                     #sign-up{
-                        position: relative;
-                        top: -110px;
-                        left: 40%;
+                        
+                       position: relative;
+                        top: -120px;
+                        left:40%;
                     }
                     #login{
-                        position: relative;
+                        
+                         position: relative;
                         top: -110px;
-                        left: -40%;
+                        left:-40%;
+                       
                     }
 
                     .split {
                         height: 79%;
                         width: 50%;
                         position: fixed;
+                       text-align: center;
                 }
 
                 .left {
-                  left: 0;
-                  background-color:#008BD4;
+                    left: 0;
+                    background-image: linear-gradient(to bottom right, #1F4E79  10% ,  #0070C0 50%, #00B0F0);
                 }
 
                 .right {
-                 right: 0;
-                  background-color:#48C050;
+                  right: 0;
+                  background-image: linear-gradient(to bottom right,   #92D050 10%, #00B050 50%,#375623);
                 }
 
                     #split-right{
                         width: 100%;
-                        background-color:#008BD4;   
+                        background-image: linear-gradient(to bottom right,#00B0F0 10% ,  #0070C0 50%, #1F4E79);
                         right: 0;
                         height: 79%;
                         position: fixed;
@@ -98,7 +115,7 @@
 
                      #split-left{
                            width: 100%;
-                           background-color:#48C050; 
+                           background-image: linear-gradient(to bottom left ,#92D050 10%, #00B050 50%,#375623);
                            height: 79%;
                            position: fixed;
                            display: none;
@@ -108,13 +125,17 @@
 
                     #back-to-login{
                         float: left;
-                        margin-top: 15%;
+                        position: relative;
+                        top: 40%;
+                       margin-left: 10px;
                     }
 
                      #back-to-sign-up{
 
                        float: right;
-                       margin-top: 15%;
+                        position: relative;
+                        top: 40%;
+                         margin-right: 10px;
                     }
 
                     #sign-up-form{
@@ -125,7 +146,8 @@
                         border-radius: 10%;
                         color: black;
                         float: right;
-                        margin: 100px;
+                       margin: 100px;
+                        
                     }
 
                     #login-form{
@@ -145,15 +167,12 @@
     
      /*footer Part: */
     
-                    .footer{
-
-                        color: black;
-                        position: relative;
-                        top: -2px;
-
-                    }
                     #copyright{
+                        color: black;
                         margin-left: 5px;
+                        font-size: 20px;
+                       position: relative;
+                        top: -7px;
 
                     }
     
