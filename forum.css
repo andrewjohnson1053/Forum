@@ -71,7 +71,7 @@
                     }
 
                     .split {
-                        height: 80%;
+                        height: 79%;
                         width: 50%;
                         position: fixed;
                 }
@@ -90,7 +90,7 @@
                         width: 100%;
                         background-color:#008BD4;   
                         right: 0;
-                        height: 80%;
+                        height: 79%;
                         position: fixed;
                         display: none;
 
@@ -99,7 +99,7 @@
                      #split-left{
                            width: 100%;
                            background-color:#48C050; 
-                           height: 80%;
+                           height: 79%;
                            position: fixed;
                            display: none;
                            left: 0;
