@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="Designing index.php" />
+    <list default="true" id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,22 +58,45 @@
       <updated>1592504740801</updated>
       <workItem from="1592504745117" duration="3074000" />
       <workItem from="1592544737723" duration="2831000" />
-      <workItem from="1592554877709" duration="15274000" />
+      <workItem from="1592554877709" duration="15540000" />
     </task>
+    <task id="LOCAL-00001" summary="Designing index.php">
+      <created>1592570772108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592570772109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Designing index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designing index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592505768355">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.832@0.0.1536.832" timestamp="1592505768355" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592568735391">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592570770508">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592568735391" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592570770508" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1592568700357">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -84,6 +109,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="581" y="73" key="RollbackChangesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592555390567" />
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592570968481">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592570968481" />
     <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592554875191">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -92,6 +121,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="546" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1592568575291" />
+    <state x="435" y="162" key="git4idea.merge.GitPullDialog" timestamp="1592571011036">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="435" y="162" key="git4idea.merge.GitPullDialog/0.0.1536.832@0.0.1536.832" timestamp="1592571011036" />
     <state x="543" y="253" key="git4idea.rebase.GitRebaseDialog" timestamp="1592555518071">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
