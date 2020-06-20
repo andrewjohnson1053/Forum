@@ -29,36 +29,25 @@
     <div class="main-content">
         
        
-                <div class="split left">
+                  <div class="split left">
 
-                    <h1>Sign Up</h1>
-                    <span id="sign-up" ><img src="Images/arrow5.png"></span> 
+                    <h1 id="sign-up-text">Sign Up</h1>
+                    <span id="sign-up" class="expand-button"  ><img src="Images/arrow5.png"></span> 
+                    <div id="sign-up-form">Sign-up Form</div>
+                   <img src="Images/arrow5.png" id="back-to-login" class="expand-button" >
                     
                 </div>
-
+                    
+        
+        
                 <div class="split right">
 
-                     <h1>Login</h1>
-                     <span id="login" ><img src="Images/arrow6.png"></span> 
+                     <h1 id="login-text">Login</h1>
+                     <span id="login" class="expand-button"  ><img src="Images/arrow6.png"></span> 
+                      <div id="login-form">Login Form</div>
+                 <img src="Images/arrow6.png" id="back-to-sign-up" class="expand-button" >
                     
                 </div>
-            
-          
-                <div id="split-right" >
-
-                    <img src="Images/arrow7.png" id="back-to-login">
-
-                    <div id="sign-up-form">Sign-up Form</div>
-
-                </div> 
-        
-                  <div id="split-left" >
-
-                       <img src="Images/arrow8.png" id="back-to-sign-up">
-
-                      <div id="login-form">Login Form</div>
-
-                </div> 
         
       </div>
       
@@ -81,34 +70,101 @@
                 document.getElementById("date").innerHTML = daylist[day] + " " +d + "/" + m + "/" + y;
         
         
-                $(document).ready(function() {
-         
-                            
-                                 $('.left').click(function() {
-
-                                        $('#split-right').toggle("slide");  
-                                            
-                                  });
+                var activeDiv = 0;
+            $('.expand-button').click(function () {
+                if(activeDiv == 0) {
+                    var id = $(this).attr('id');
+                    console.log(id);
+                    if(id == 'sign-up'){
+                        activeDiv = 1;
+                    }
+                    else if(id == 'login'){
+                        activeDiv = 2;
+                    }
+                     else if(id == 'back-to-sign-up'){
+                        activeDiv = 3;
+                    }
+                     else {
+                        activeDiv = 4;
+                    }
                     
-                                 $('.right').click(function() {
-
-                                        $('#split-left').toggle("slide");                 
-
-                                  });
+                    console.log(activeDiv);
+                }
+                switch (activeDiv) {
+                    case 1:{
+                        $(".left").animate({
+                            width:'100%',
+                           // marginRight : '1%',
+                            
+                        },{duration : 1000}
+                        );
+                  
+                       
+                        $("#sign-up").hide();
+                          
+                        $("#sign-up-text").hide();
+                        $(".right").hide();
+                        $(this).css('transform','rotate(180deg)');
+                          
+                  //    $(this).attr('id','login');
+                        
+                        $("#back-to-login").show();
+                        $("#sign-up-form").show();
+                        
+                        activeDiv=0;
+                        
+                        break;
+                        
+                    }
+                    case 2:{
+                        $(".right").animate({
+                            width:'100%',
+                        },{duration : 1000}
+                                          
+                          );
+                       
+                        $("#login").hide();
+                       
+                        $("#login-text").hide();
+                        $(".left").hide();
+                        $(this).css('transform','rotate(180deg)');
+                        
+                          $("#back-to-sign-up").show();
+                        $("#login-form").show();
+                        
+                         activeDiv=0;
+                        
+                        break;
+                        
+                    }
+                    case 3:{
+                        
+                             
+                             $('.right').css("display","none"); 
+                  
+                         $('.left').css("display","block");   
+                         
+                        activeDiv=0;
+                        
+                            break;     
+                            
+                        
+                     }
+                        
+                        case 4:{
+                              $('.right').css("display","block"); 
+                            
+                         $('.left').css("display","none");  
                               
-                                  $('#back-to-login').click(function() {
-
-                                      $('#split-right').css("display","none");       
+                        activeDiv=0;
                             
-                                 });
-                    
-                                 $('#back-to-sign-up').click(function() {
-
-                                        $('#split-left').css("display","none");              
-
-                                 });
-                   
-                 }); 
+                            break;  
+                        
+                     }
+                        
+                }
+            });
+        
         
     </script>
         
