@@ -119,8 +119,12 @@ body{
     color: white;
     margin-right: 10px;
     float: right;
-    top: 80%;
-    height: 20%;
+    top: 70%;
+    height: 30%;
+    font-size: 150%;
+    font-family: Abel;
+    padding: 0% 1% 0% 1%;
+    vertical-align: center;
 }
 
 #copyright-text {

@@ -20,7 +20,6 @@
                     Project_Name
                 </div>
                 <div id="date-div">
-                    Date and Time
                 </div>
             </div>
             <div id="header-seperater" class="seperater">
@@ -72,8 +71,8 @@
                 $("#sign-up-form-div").hide();
                 $("#left-div").animate({width: '0%'}, 1000);
                 $(".option-text").hide();
-                //$("#left-div").hide();
-                //$("#left-div").css();
+                // $("#left-div").hide();
+                // $("#left-div").css();
                 $("#left-expand-image").hide();
                 $("#right-div").show();
                 $("#right-expand-image").show();
@@ -81,22 +80,22 @@
                     width: '100%',
                 }, {
                     duration: 1000, complete: function () {
-                        console.log("Animation Complete");
+                        // console.log("Animation Complete");
                         $("#log-in-form-div").show();
                     }
                 });
-                $("#right-expand-image").css('margin-left', '1%');
+                // $("#right-expand-image").css('margin-left', '1%');
                 $("#right-expand-image").css('transform', 'rotate(180deg)');
                 activeDiv = 1;
-                console.log("Login is Running");
+                // console.log("Login is Running");
             }
 
             function showSignup() {
                 $("#log-in-form-div").hide();
                 $("#right-div").animate({width: '0%'}, 1000);
                 $(".option-text").hide();
-                //$("#right-div").hide();
-                //$("#right-div").css('width','0%');
+                // $("#right-div").hide();
+                // $("#right-div").css('width','0%');
                 $("#right-expand-image").hide();
                 $("#left-div").show();
                 $("#left-expand-image").show();
@@ -104,14 +103,14 @@
                     width: '100%',
                 }, {
                     duration: 1000, complete: function () {
-                        console.log("Animation Complete");
+                        // console.log("Animation Complete");
                         $("#sign-up-form-div").show();
                     }
                 });
-                $("#left-expand-image").css('margin-left', '1%');
+                // $("#left-expand-image").css('margin-left', '1%');
                 $("#left-expand-image").css('transform', 'rotate(180deg)');
                 activeDiv = 2;
-                console.log("SignUp is Running");
+                //console.log("SignUp is Running");
             }
 
             if (activeDiv == 0) {
@@ -132,6 +131,13 @@
                     showLogin();
                 });
             }
+            n = new Date();
+            var day = n.getDay();
+            var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"];
+            y = n.getFullYear();
+            m = n.getMonth() + 1;
+            d = n.getDate();
+            document.getElementById("date-div").innerHTML = daylist[day] + " " + d + "/" + m + "/" + y;
             // var activeDiv = 0;
             // $('.expand-button').click(function () {
             //     if(activeDiv == 0) {
