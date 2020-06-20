@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="andrewjohnson1053 &lt;andrewjohnson1053@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -58,7 +65,8 @@
       <updated>1592504740801</updated>
       <workItem from="1592504745117" duration="3074000" />
       <workItem from="1592544737723" duration="2831000" />
-      <workItem from="1592554877709" duration="15540000" />
+      <workItem from="1592554877709" duration="15818000" />
+      <workItem from="1592672670912" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="Designing index.php">
       <created>1592570772108</created>
@@ -67,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592570772109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Designing index.php">
+      <created>1592571025608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592571025608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -93,10 +110,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.832@0.0.1536.832" timestamp="1592505768355" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592570770508">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592682251114">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592570770508" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592682251114" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1592568700357">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -109,14 +126,14 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="581" y="73" key="RollbackChangesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592555390567" />
-    <state x="261" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592570968481">
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592571045182">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="261" y="84" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592570968481" />
-    <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592554875191">
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592571045182" />
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592672774836">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="401" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592554875191" />
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592672774836" />
     <state x="546" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592568575291">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -133,9 +150,9 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="388" y="233" key="git4idea.ui.GitUnstashDialog/0.0.1536.832@0.0.1536.832" timestamp="1592568610252" />
-    <state x="341" y="185" key="run.anything.popup" timestamp="1592566113692">
+    <state x="341" y="185" key="run.anything.popup" timestamp="1592681687482">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="341" y="185" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1592566113692" />
+    <state x="341" y="185" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1592681687482" />
   </component>
 </project>

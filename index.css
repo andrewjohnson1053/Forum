@@ -40,36 +40,46 @@ body{
     float: left;
     text-align: center;
 }
-#right-div{
+#right-div {
     width: 50%;
     height: 100%;
-    background-image: linear-gradient(to bottom right,#92D050,#00B050,#375623);
+    background-image: linear-gradient(to bottom right, #92D050, #00B050, #375623);
     float: right;
     text-align: center;
 }
-#left-expand-image{
+
+#left-expand-image {
+    height: 7%;
+    position: relative;
+    top: 46.5%;
     float: right;
 }
-#right-expand-image{
+
+#right-expand-image {
+    height: 7%;
+    position: relative;
+    top: 46.5%;
     float: left;
+
 }
-#left-expand-image-reversed{
-    height:7%;
+
+.expand-button {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#left-expand-image-reversed {
+    height: 7%;
     float: right;
     position: relative;
     top: 46.5%;
     margin-right: 2%;
 }
-#right-expand-image-reversed{
+
+#right-expand-image-reversed {
     height: 10%;
     transform: rotate(180deg);
     display: none;
-}
-.expand-button{
-    height:7%;
-    position: relative;
-    top: 46.5%;
-    margin-right: 2%;
 }
 .vertical-center {
     margin: 0;
@@ -101,19 +111,43 @@ body{
     padding-top: 10px;
     padding-left: 20px;
 }
-#date-div{
+
+#date-div {
     position: relative;
     bottom: 0;
     background-color: black;
     color: white;
     margin-right: 10px;
     float: right;
-    top: 80% ;
+    top: 80%;
     height: 20%;
 }
-#copyright-text{
+
+#copyright-text {
     font-size: 125%;
     padding-left: 1%;
+}
+
+#sign-up-form-div {
+    float: left;
+    position: relative;
+    top: 14%;
+    left: 7.221875%;
+    height: 72%;
+    width: 28.90625%;
+    border-radius: 5%;
+    background-color: #CCECFF;
+}
+
+#log-in-form-div {
+    float: right;
+    position: relative;
+    top: 14%;
+    right: 7.221875%;
+    height: 72%;
+    width: 28.90625%;
+    border-radius: 5%;
+    background-color: #CCFFCC;
 }
 
 
