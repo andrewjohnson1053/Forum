@@ -63,7 +63,7 @@
 
                     .left h1{
                         padding-top: 25%;
-                        text-align: center;
+                        
                     }
 
                     .right h1{
@@ -82,7 +82,7 @@
                         
                          position: relative;
                         top: -110px;
-                        left:-40%;
+                        left:-41%;
                        
                     }
 
@@ -103,65 +103,57 @@
                   background-image: linear-gradient(to bottom right,   #92D050 10%, #00B050 50%,#375623);
                 }
 
-                    #split-right{
-                        width: 100%;
-                        background-image: linear-gradient(to bottom right,#00B0F0 10% ,  #0070C0 50%, #1F4E79);
-                        right: 0;
-                        height: 79%;
-                        position: fixed;
-                        display: none;
-
-                    }
-
-                     #split-left{
-                           width: 100%;
-                           background-image: linear-gradient(to bottom left ,#92D050 10%, #00B050 50%,#375623);
-                           height: 79%;
-                           position: fixed;
-                           display: none;
-                           left: 0;
-
-                    }
-
                     #back-to-login{
-                        float: left;
-                        position: relative;
-                        top: 40%;
-                       margin-left: 10px;
+                        float: right;
+                       margin-right: 10px;
+                         position: relative;
+                         top: -20%;
+                        display: none;
                     }
 
                      #back-to-sign-up{
 
-                       float: right;
+                       float: left;
+                         margin-left: 10px;
                         position: relative;
-                        top: 40%;
-                         margin-right: 10px;
+                         top: -20%;
+                         display: none;
                     }
 
                     #sign-up-form{
-                        width: 320px;
-                        height: 360px;
+                        
+                         width: 300px;
+                        height: 350px;
                         background-color: whitesmoke;
                         border: 1px solid black;
                         border-radius: 10%;
                         color: black;
-                        float: right;
-                       margin: 100px;
+                       position: relative;
+                        top: 20%;
+                        left: 10%;
+                          display: none;
+                       
+                        
+                       
                         
                     }
 
                     #login-form{
 
-                        width: 320px;
-                        height: 360px;
+                        width: 300px;
+                        height: 350px;
                         background-color: whitesmoke;
                         border: 1px solid black;
                         border-radius: 10%;
                         color: black;
-                        float: left;
-                        margin: 100px;
+                        
+                        position: relative;
+                        top: 20%;
+                        left: 70%;
+                        display: none;
 
                     }
+    
     
      /*--------------------------------------------------------------------------------------------------- */
     
