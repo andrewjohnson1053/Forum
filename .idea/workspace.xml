@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ec9be9a-bf29-4c72-8de8-e4456ce05af6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,6 +52,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +72,8 @@
       <workItem from="1592504745117" duration="3074000" />
       <workItem from="1592544737723" duration="2831000" />
       <workItem from="1592554877709" duration="15818000" />
-      <workItem from="1592672670912" duration="9799000" />
+      <workItem from="1592672670912" duration="9862000" />
+      <workItem from="1592740612549" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="Designing index.php">
       <created>1592570772108</created>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592682296924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="index.php designed completely">
+      <created>1592685108107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592685108107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,10 +134,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="469" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.832@0.0.1536.832" timestamp="1592505768355" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592682295878">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1592685107334">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592682295878" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1592685107334" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1592568700357">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -141,14 +150,18 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="581" y="73" key="RollbackChangesDialog/0.0.1536.832@0.0.1536.832" timestamp="1592555390567" />
-    <state x="261" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592682317854">
+    <state x="161" y="0" key="SettingsEditor" timestamp="1592740970391">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="261" y="84" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592682317854" />
-    <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592672774836">
+    <state x="161" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1592740970391" />
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592685117268">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="401" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592672774836" />
+    <state x="261" y="84" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1592685117268" />
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1592740611219">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="401" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1592740611219" />
     <state x="546" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592568575291">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
