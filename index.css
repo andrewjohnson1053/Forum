@@ -100,16 +100,16 @@ body{
     height: 75.34246575342466%;
     background-color: black;
     color: white;
-    margin-top: 13px;
-    margin-left: 13px;
+    margin-top: 1.23%;
+    margin-left: 1.41%;
     float: left;
 }
 #header-text{
     font-family: 'Coda', cursive;
     font-size: 400%;
     float: left;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 0.71%;
+    padding-left: 1.33%;
 }
 
 #date-div {
@@ -117,7 +117,7 @@ body{
     bottom: 0;
     background-color: black;
     color: white;
-    margin-right: 10px;
+    margin-right: 0.71%;
     float: right;
     top: 70%;
     height: 30%;
